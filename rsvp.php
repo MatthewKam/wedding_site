@@ -23,7 +23,7 @@
 								</div
 								><div class="frm col-r splt-2">
 									<label>Last Name</label>
-									<input type="text" name="first_name">
+									<input type="text" name="last_name">
 								</div>
 								<div class="frm">
 									<label>Email</label>
@@ -32,6 +32,10 @@
 								<div class="frm">
 									<input type="checkbox" name="is_going">
 									<p>Are you attending?</p>
+								</div>
+								<div class="frm" id="has-guest">
+									<input type="checkbox" name="has_guest">
+									<p>Have a guest?</p>
 								</div>
 							</div>
 							<div id="guest">
@@ -44,6 +48,7 @@
 									<input type="text" name="guest_last">
 								</div>
 							</div>
+							<button type="submit" name="">Submit</button>
 							<div id="thanks">
 								<h1>Thank you for your RSVP!</h1>
 								<p>An email will be sent shortly.</p>
