@@ -1,15 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<?php include 'includes/head.php' ?>
 </head>
 <body>
-	<div class="pg-wrp">
+	<div class="pg-wrp rsvp-pg">
 		<div class="sctn sctn-hdr">
-			
+			<div class="cntn-wrp">
+				<div class="cntnt">
+					<?php include 'includes/header.php' ?>
+				</div>
+			</div>	
 		</div>
 		<div class="sctn sctn-1">
-			<?php include '/includes/head.php' ?>
+			<div class="cntn-wrp">
+				<div class="cntnt">
+
+				</div>
+			</div>
 		</div>
 		<div class="sctn sctn-2">
 			<div class="cntn-wrp">
@@ -59,7 +67,11 @@
 			</div>
 		</div>
 		<div class="sctn sctn-ftr">
-			<?php include '/includes/footer.php' ?>
+			<div class="cntn-wrp">
+				<div class="cntnt">
+					<?php include 'includes/footer.php' ?>
+				</div>
+			</div>	
 		</div>
 	</div>
 </body>
