@@ -73,6 +73,7 @@
 				</div>
 			</div>	
 		</div>
+		<script type="text/javascript" src="js/rsvp.js"></script>
 	</div>
 </body>
 </html>
