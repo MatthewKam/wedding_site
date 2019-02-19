@@ -1,74 +1,73 @@
 /*GLOBAL*/
 body {
-    -webkit-font-smoothing: antialiased;
-    margin: 0;
-    padding: 0;
-    /*-webkit-touch-callout: none;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  padding: 0;
+  /*-webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;*/
-}
-img,
-input[type=image]{
+  /*CUSTOM*/
+  /*COLORS*/
+  /*FONTS*/ }
+  body img,
+  body input[type=image] {
     user-drag: none;
     user-select: none;
     -moz-user-select: none;
     -webkit-user-drag: none;
     -webkit-user-select: none;
-    -ms-user-select: none;
-}
-img{display:block;}
-p,
-h1,
-h2,
-h3,
-ul,
-li,
-ol{
-    margin:0;
-    padding:0;
-    list-style:none;
-}
-h1, h2, h3, h4{
-    font-weight:normal;
-}
-/*CUSTOM*/
-.ib{display:inline-block;vertical-align:top;}
-.bold{font-weight:bold;}
-.normal{font-weight:normal;}
-.up{text-transform:uppercase;}
-.clear{clear:both;}
-.sctn{position:relative;}
-.col-l,
-.col-m,
-.col-r,
-.splt-2,
-.splt-3{
+    -ms-user-select: none; }
+  body img {
+    display: block; }
+  body p,
+  body h1,
+  body h2,
+  body h3,
+  body ul,
+  body li,
+  body ol {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+  body h1,
+  body h2,
+  body h3,
+  body h4 {
+    font-weight: normal; }
+  body .ib {
+    display: inline-block;
+    vertical-align: top; }
+  body .bold {
+    font-weight: bold; }
+  body .normal {
+    font-weight: normal; }
+  body .up {
+    text-transform: uppercase; }
+  body .clear {
+    clear: both; }
+  body .sctn {
+    position: relative; }
+  body .col-l,
+  body .col-m,
+  body .col-r,
+  body .splt-2,
+  body .splt-3 {
     display: inline-block;
     vertical-align: top;
-    box-sizing:border-box;
-}
-.splt-3.col-l,
-.splt-3.col-m,
-.splt-3.col-r{
-    width:32%;
-}
-.splt-3.col-m{
-    margin:0 1%;
-}
-.col-l,
-.col-r{
-    width:50%;
-}
-
-/*COLORS*/
-.red{  color:red;  }
-.yellow{  color:#ffba11;  }
-.l-green{  color:#34ef32; }
-
-/*FONTS*/
-
-
-
+    box-sizing: border-box; }
+  body .splt-3.col-l, body .splt-3.col-m, body .splt-3.col-r {
+    width: 32%; }
+  body .splt-3.col-m {
+    margin: 0 1%; }
+  body .col-l,
+  body .col-r {
+    width: 50%; }
+  body .red {
+    color: red; }
+  body .yellow {
+    color: #ffba11; }
+  body .l-green {
+    color: #34ef32; }
