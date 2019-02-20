@@ -1,0 +1,78 @@
+body, html{
+	 height: 100%;
+}
+.pg-wrp{
+	&.home-pg{
+		.sctn{
+			.cntnt-wrp{
+				.cntnt{
+
+				}
+			}
+
+			&.sctn-1{
+				padding-top:0;
+
+				.bg-img{
+					.ovr-bg{
+						background-color: rgba(143, 213, 247, 0.2);	
+    					height: 100vh;
+					    padding-top: 70px;
+
+					    .cntnt{
+						    text-align: center;
+
+						    .headlines{
+						    	padding-top: 20%;
+						    	height: 100px;
+ 								text-shadow: 1px 1px 5px black;
+
+						    	h1{
+						    		font-family: 'Rouge Script', cursive;
+					    		    font-size: 80px;
+				    		        line-height: 70px;
+						    		color:white;
+						    	}
+						    	p{
+						    		color:white;
+						    		font-family: 'Amatic SC', cursive;
+					    		    font-size: 40px;
+						    	}
+						    }
+						    
+					    }
+					}
+					/* Full height */
+					
+					
+					&.bg-1{
+						background:url(../images/bg-1.jpg)center top no-repeat;
+						background-size: cover;
+					}
+					&.bg-2{
+						background:url(../images/bg-2.jpg)center top no-repeat;
+						background-size: cover;
+					}
+					&.bg-3{
+						background:url(../images/bg-3.jpg)center top no-repeat;
+						background-size: cover;
+						.ovr-bg{
+							background-color: rgba(0, 172, 255, 0.2);
+						}
+					}
+					// &.bg-4{
+					// 	background:url(../images/bg-4.jpg)center top no-repeat;
+					// 	background-size: cover;
+					// }
+					// &.bg-5{
+					// 	background:url(../images/bg-5.jpg)center top no-repeat;
+					// 	background-size: cover;
+					// }
+
+
+				}
+			}
+		}
+	}
+
+}

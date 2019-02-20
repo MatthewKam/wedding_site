@@ -4,7 +4,7 @@
 	<?php include 'includes/head.php' ?>
 </head>
 <body>
-	<div class="pg-wrp index-pg">
+	<div class="pg-wrp home-pg">
 		<div class="sctn sctn-hdr">
 			<div class="cntnt-wrp">
 				<div class="cntnt">
@@ -15,21 +15,60 @@
 		<div class="sctn sctn-1" id="home">
 			<div class="cntnt-wrp" id="bg-carousel">
 				<div class="bg-img bg-1">
-					<div class="cntnt">
-						<h1>October 5th</h1>
+					<div class="ovr-bg">
+						<div class="cntnt">
+							<div class="headlines">
+								<h1>October 5th</h1>
+							</div>
+						</div>
 					</div>
 				</div>
 				<div class="bg-img bg-2">
-					<div class="cntnt">
-						<h1>#itsaboutkamtime2019</h1>
+					<div class="ovr-bg">
+						<div class="cntnt">
+							<div class="headlines">
+								<h1>#itsaboutkamtime2019</h1>
+							</div>
+						</div>
 					</div>
+					
 				</div>
 				<div class="bg-img bg-3">
-					<div class="cntnt">
-						<h1>October 5th</h1>
-						<p>#itsaboutkamtime2019</p>
+					<div class="ovr-bg">
+						<div class="cntnt">
+							<div class="headlines">
+								<h1>October 5th</h1>
+								<p>#itsaboutkamtime2019</p>
+							</div>
+							
+						</div>
 					</div>
+					
 				</div>
+				<!-- <div class="bg-img bg-4">
+					<div class="ovr-bg">
+						<div class="cntnt">
+							<div class="headlines">
+								<h1>October 5th</h1>
+								<p>#itsaboutkamtime2019</p>
+							</div>
+							
+						</div>
+					</div>
+					
+				</div>
+				<div class="bg-img bg-5">
+					<div class="ovr-bg">
+						<div class="cntnt">
+							<div class="headlines">
+								<h1>October 5th</h1>
+								<p>#itsaboutkamtime2019</p>
+							</div>
+							
+						</div>
+					</div>
+					
+				</div> -->
 			</div>
 		</div>
 		<div class="sctn sctn-2">
