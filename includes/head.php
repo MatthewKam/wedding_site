@@ -1,8 +1,6 @@
 <title>Susan & Matt Are Getting Married!</title>
-<link rel="stylesheet" type="text/css" href="./css/index.css">
+<link rel="icon" type="image/png" href="./favicon.png" />
 <link rel="stylesheet" type="text/css" href="./css/global.css">
-<link rel="stylesheet" type="text/css" href="./css/slick-theme.css">
-<link rel="stylesheet" type="text/css" href="./css/slick.css">
 <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Open+Sans|Open+Sans+Condensed:300,700|Rouge+Script" rel="stylesheet">
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"
 		integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="

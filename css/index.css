@@ -1,6 +1,58 @@
 body, html {
   height: 100%; }
 
+.pg-wrp.home-pg .sctn.sctn-hdr {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 65px;
+  background-color: transparent;
+  z-index: 111;
+  -webkit-transition-duration: .1s;
+  -moz-transition-duration: .1s;
+  -ms-transition-duration: .1s;
+  -o-transition-duration: .1s;
+  transition-duration: .1s; }
+  .pg-wrp.home-pg .sctn.sctn-hdr .cntnt-wrp .cntnt {
+    text-align: center; }
+    .pg-wrp.home-pg .sctn.sctn-hdr .cntnt-wrp .cntnt .home-link.mob,
+    .pg-wrp.home-pg .sctn.sctn-hdr .cntnt-wrp .cntnt .hambaga {
+      display: none; }
+    .pg-wrp.home-pg .sctn.sctn-hdr .cntnt-wrp .cntnt ul li {
+      display: inline-block;
+      vertical-align: top; }
+      .pg-wrp.home-pg .sctn.sctn-hdr .cntnt-wrp .cntnt ul li a {
+        display: block;
+        text-decoration: none;
+        color: white;
+        line-height: 60px;
+        font-size: 16px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        padding: 0 10px;
+        font-family: 'Open Sans Condensed', sans-serif;
+        text-shadow: 1px 1px 5px black; }
+        .pg-wrp.home-pg .sctn.sctn-hdr .cntnt-wrp .cntnt ul li a.home-link {
+          font-family: 'Amatic SC', cursive;
+          font-size: 30px; }
+  .pg-wrp.home-pg .sctn.sctn-hdr.stuck {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-bottom: 1px solid lightgrey;
+    color: black;
+    height: 60px;
+    -webkit-transition-duration: .1s;
+    -moz-transition-duration: .1s;
+    -ms-transition-duration: .1s;
+    -o-transition-duration: .1s;
+    transition-duration: .1s;
+    text-shadow: none; }
+    .pg-wrp.home-pg .sctn.sctn-hdr.stuck .cntnt-wrp .cntnt ul li a {
+      color: black;
+      text-shadow: none; }
+    .pg-wrp.home-pg .sctn.sctn-hdr.stuck.still {
+      background-color: rgba(255, 255, 255, 0.9); }
+
 .pg-wrp.home-pg .sctn.sctn-1 {
   padding-top: 0; }
   .pg-wrp.home-pg .sctn.sctn-1 .bg-img {
@@ -35,3 +87,7 @@ body, html {
       background-size: cover; }
       .pg-wrp.home-pg .sctn.sctn-1 .bg-img.bg-3 .ovr-bg {
         background-color: rgba(0, 172, 255, 0.2); }
+
+.pg-wrp.home-pg .sctn.sctn-2 .cntnt-wrp {
+  padding-top: 50px;
+  margin-top: -50px; }

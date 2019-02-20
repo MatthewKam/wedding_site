@@ -2,6 +2,9 @@
 <html>
 <head>
 	<?php include 'includes/head.php' ?>
+	<link rel="stylesheet" type="text/css" href="./css/index.css">
+	<link rel="stylesheet" type="text/css" href="./css/slick-theme.css">
+	<link rel="stylesheet" type="text/css" href="./css/slick.css">
 </head>
 <body>
 	<div class="pg-wrp home-pg">
@@ -71,8 +74,8 @@
 				</div> -->
 			</div>
 		</div>
-		<div class="sctn sctn-2">
-			<div class="cntnt-wrp" id="ceremony">
+		<div class="sctn sctn-2" id="ceremony">
+			<div class="cntnt-wrp">
 				<div class="cntnt">
 					<h1>Ceremony & Reception</h1>
 					<h3>Lanikuhonua Cultural Institute</h3>
@@ -85,7 +88,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="sctn sctn-3">
+		<div class="sctn sctn-3" id="after-party">
 			<div class="cntnt-wrp">
 				<div class="cntnt">
 					<h1>After Party</h1>
@@ -97,7 +100,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="sctn sctn-4">
+		<div class="sctn sctn-4" id="travel">
 			<div class="cntnt-wrp">
 				<div class="cntnt">
 					<h1>Travel</h1>
