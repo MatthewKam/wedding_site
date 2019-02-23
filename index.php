@@ -77,10 +77,12 @@
 		<div class="sctn sctn-2" id="ceremony">
 			<div class="cntnt-wrp">
 				<div class="cntnt">
-					<h1>Ceremony & Reception</h1>
-					<h3>Lanikuhonua Cultural Institute</h3>
-					<a target="_blank" href="https://www.google.com/maps/dir//21.340493,-158.126443/@21.340493,-158.1269902,292m/data=!3m1!1e3">
-						<h4>Phase 2</h4>
+					<img src="images/sctn-img-1.png" class="sctn-img">
+					<div class="title">
+						<h1>Ceremony & Reception</h1>
+					</div>
+					<a target="_blank" class="link" href="https://www.google.com/maps/dir//21.340493,-158.126443/@21.340493,-158.1269902,292m/data=!3m1!1e3">
+						<h3 class="sub-title">Lanikuhonua Cultural Institute - Phase 2</h3>
 						<p>92-1001 Olani St</p>
 						<p>Kapolei, HI 96707</p>
 					</a>
@@ -91,36 +93,43 @@
 		<div class="sctn sctn-3" id="after-party">
 			<div class="cntnt-wrp">
 				<div class="cntnt">
-					<h1>After Party</h1>
-					<a target="_blank" href="">
-						<h4>Something</h4>
-						<p>92-1001 Olani St</p>
-						<p>Kapolei, HI 96707</p>
-					</a>
+					<img src="images/sctn-img-2.png" class="sctn-img">
+					<div class="title">
+						<h1>After Party</h1>
+					</div>
+					<a target="_blank" href="" class="link">
+							<h4 class="sub-title">Something</h4>
+							<p>92-1001 Olani St</p>
+							<p>Kapolei, HI 96707</p>
+						</a>
 				</div>
 			</div>
 		</div>
 		<div class="sctn sctn-4" id="travel">
 			<div class="cntnt-wrp">
 				<div class="cntnt">
-					<h1>Travel</h1>
+					<img src="images/sctn-img-3.png" class="sctn-img">
+					<div class="title">
+						<h1>Travel</h1>
+					</div>
+					
 					<div class="col-l splt-3">
-						<h2>Flights</h2>
-						<a href="">flighthopper.com</a>
+						<h2 class="sub-title">Flights</h2>
+						<a href="" class="link">flighthopper.com</a>
 					</div
 					><div class="col-m splt-3">
-						<h2>Hotels</h2>
+						<h2 class="sub-title">Hotels</h2>
 					</div
 					><div class="col-r splt-3">
-						<h2>Airbnb's</h2>
+						<h2 class="sub-title">Airbnb's</h2>
 					</div>
 					<div class="our-stay-wrap">
-						<h3>Our Stay</h3>
+						<h3 class="sub-title">Our Stay</h3>
 						<div class="our-stay">
 							<h2>October 3rd to 6th</h2>
-							<a href=""><p>4 Seasons</p></a>
+							<a href="" class="link"><p>4 Seasons</p></a>
 							<h2>October 6th to 12th</h2>
-							<a href=""><p>Airbnb</p></a>
+							<a href="" class="link"><p>Airbnb</p></a>
 						</div>
 					</div>
 				</div>

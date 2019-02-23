@@ -29,16 +29,13 @@ body {
   body h1,
   body h2,
   body h3,
+  body h4,
   body ul,
   body li,
   body ol {
     margin: 0;
     padding: 0;
-    list-style: none; }
-  body h1,
-  body h2,
-  body h3,
-  body h4 {
+    list-style: none;
     font-weight: normal; }
   body .ib {
     display: inline-block;

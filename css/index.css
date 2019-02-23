@@ -1,6 +1,45 @@
 body, html {
   height: 100%; }
 
+.pg-wrp.home-pg .sctn .cntnt-wrp .cntnt {
+  text-align: center; }
+  .pg-wrp.home-pg .sctn .cntnt-wrp .cntnt .title {
+    max-width: 450px;
+    margin: 0 auto;
+    border-bottom: 1px solid lightgrey;
+    padding: 0 20px;
+    padding-bottom: 10px;
+    margin-top: 30px; }
+    .pg-wrp.home-pg .sctn .cntnt-wrp .cntnt .title h1 {
+      font-size: 55px;
+      font-family: 'Rouge Script', cursive; }
+  .pg-wrp.home-pg .sctn .cntnt-wrp .cntnt .sub-title {
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    margin-bottom: 10px; }
+  .pg-wrp.home-pg .sctn .cntnt-wrp .cntnt .link {
+    color: black;
+    text-decoration: none;
+    padding: 0 15px;
+    max-width: 450px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px; }
+    .pg-wrp.home-pg .sctn .cntnt-wrp .cntnt .link:hover {
+      color: green; }
+    .pg-wrp.home-pg .sctn .cntnt-wrp .cntnt .link p {
+      font-family: 'Open Sans Condensed', sans-serif;
+      font-size: 24px;
+      line-height: 30px; }
+  .pg-wrp.home-pg .sctn .cntnt-wrp .cntnt .sctn-img {
+    border: 5px solid white;
+    border-radius: 50%;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    opacity: .9;
+    display: block;
+    margin: 0 auto; }
+
 .pg-wrp.home-pg .sctn.sctn-hdr {
   position: fixed;
   top: 0;
@@ -88,6 +127,26 @@ body, html {
       .pg-wrp.home-pg .sctn.sctn-1 .bg-img.bg-3 .ovr-bg {
         background-color: rgba(0, 172, 255, 0.2); }
 
-.pg-wrp.home-pg .sctn.sctn-2 .cntnt-wrp {
+.pg-wrp.home-pg .sctn.sctn-2 .cntnt-wrp, .pg-wrp.home-pg .sctn.sctn-3 .cntnt-wrp, .pg-wrp.home-pg .sctn.sctn-4 .cntnt-wrp {
   padding-top: 50px;
   margin-top: -50px; }
+  .pg-wrp.home-pg .sctn.sctn-2 .cntnt-wrp .cntnt, .pg-wrp.home-pg .sctn.sctn-3 .cntnt-wrp .cntnt, .pg-wrp.home-pg .sctn.sctn-4 .cntnt-wrp .cntnt {
+    padding-top: 40px;
+    padding-bottom: 100px; }
+
+.pg-wrp.home-pg .sctn.sctn-3 .cntnt-wrp .cntnt, .pg-wrp.home-pg .sctn.sctn-4 .cntnt-wrp .cntnt {
+  margin-top: 30px;
+  padding-bottom: 100px; }
+
+.pg-wrp.home-pg .sctn.sctn-2 .cntnt-wrp .cntnt {
+  font-size: 20px;
+  margin-top: 30px; }
+  .pg-wrp.home-pg .sctn.sctn-2 .cntnt-wrp .cntnt h2 {
+    font-size: 20px;
+    margin-top: 30px; }
+
+.pg-wrp.home-pg .sctn.sctn-3 {
+  background-color: #fcfdfc; }
+
+.pg-wrp.home-pg .sctn.sctn-4 {
+  padding-top: 40px; }
