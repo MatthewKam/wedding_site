@@ -140,7 +140,7 @@ body {
                             text-decoration: none;
 
                             &.mob{
-                                color: white;
+                                color: black;
                             }
                             &.tab{
                                 display:none;
@@ -168,7 +168,7 @@ body {
                                 position:relative;
 
                                 .lines {
-                                    border-bottom: 1px solid white;
+                                    border-bottom: 1px solid black;
                                     width: 30px;
                                     margin-top: 5px;
 
@@ -236,7 +236,7 @@ body {
                                     font-family: 'Open Sans Condensed', sans-serif;
 
                                     @media screen and (min-width: 640px) {
-                                        color: white;
+                                        // color: white;
                                     }
                                     @media screen and (min-width: 800px) {
                                         padding: 0 10px;
@@ -261,6 +261,13 @@ body {
                                     line-height: 25px;
                                     padding: 5px 0;
 
+                                    @media screen and (min-width: 640px) {
+                                        line-height: 60px;
+                                        width: auto;
+                                        padding: 5px 0;
+                                        background-color: transparent;
+                                    }
+               
                                     &:hover{
                                         background-color: rgba(234, 245, 234,.9);
                                     }
@@ -310,7 +317,7 @@ body {
 
         &.registry-pg{
             .bar-bg{
-                background:url(../images/bg-1.jpg)center -300px no-repeat;
+                background:url(../images/bg-1.jpg)center 40% no-repeat;
                 background-size:cover;
             }
         }

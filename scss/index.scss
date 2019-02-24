@@ -13,7 +13,6 @@ body, html{
     					margin: 0 auto;
 						border-bottom: 1px solid lightgrey;
 					    padding: 0;
-					    // padding: 0 20px;
 					    padding-bottom: 10px;
 				        margin-top: 10px;
 
@@ -65,6 +64,36 @@ body, html{
 			}
 
 			&.sctn-hdr{
+				.cntnt-wrp{
+                    .cntnt{
+                        ul{
+                            li{
+                                a{
+                                    color: black;
+                                    text-shadow: none;
+
+                                    @media screen and (min-width: 640px) {
+		                                color: white;
+		                            }
+                                }
+                            }
+                        }
+                        .home-link{
+                        	&.mob{
+                        		color: white;
+                                text-shadow: none;
+                        	}
+                        }
+
+                        .hambaga-wrp{
+                        	.hambaga{
+                        		.lines {
+                                	border-bottom: 1px solid white;
+                        		}
+                        	}
+                        }
+                    }
+                }
 
 	            &.stuck{
 	                background-color: rgba(255,255,255,.7);

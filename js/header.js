@@ -4,4 +4,5 @@ $(document).ready(function(){
 		$('.nav-list').slideToggle().addClass('active');
 		$('.sctn-hdr').toggleClass('active');
 	});
+
 });
