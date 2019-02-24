@@ -86,7 +86,7 @@
 						<p>92-1001 Olani St</p>
 						<p>Kapolei, HI 96707</p>
 					</a>
-					<h2>Reception to follow.</h2>
+
 				</div>
 			</div>
 		</div>
@@ -115,22 +115,26 @@
 					
 					<div class="col-l splt-3">
 						<h2 class="sub-title">Flights</h2>
-						<a href="" class="link">flighthopper.com</a>
+						<p><a href="https://www.google.com/maps/place/Daniel+K.+Inouye+International+Airport/@21.3325377,-157.9312456,15.13z/data=!4m5!3m4!1s0x7c006f943168f55f:0x7ed111b1cbf331df!8m2!3d21.3245132!4d-157.9250736?hl=en&authuser=0" target="_blank">(HNL) Daniel K. Inouye International Airport </a></p>
+						<p><a href="https://www.hopper.com/">flighthopper.com</a>
+						<span>The above website will help you choose the right time to buy your tickets.</span></p>
+						<p><a href="https://www.kayak.com/flights/LAX-HNL/2019-10-02/2019-10-13?sort=bestflight_a" target="_blank">Kayak Flights</a></p>
+						<p><a href="https://www.cheapflights.com/book-flights-online/">cheapflights.com</a></p>
+
 					</div
 					><div class="col-m splt-3">
 						<h2 class="sub-title">Hotels</h2>
+						<p><a href="https://reservations.fourseasons.com/choose-your-room?hotelCode=HNL161&checkIn=2019-10-04&checkOut=2019-10-06&adults=2&children=0&promoCode=" target="_blank">Four Seasons at Ko Olina</a><span class="discount">Discount Code</span><span class="hidden-code">Local Discount: 191004KWA</span></p>
+						<p><a href="https://www.hotels.com/search.do?resolved-location=GEO_LOCATION%3A92-1101%20Ali%27inui%20Dr,%20Kapolei,%20HI%2096707,%20USA%7C21.3407038%7C-158.1270702%3AGEOCODE%3AUNKNOWN&q-destination=92-1101%20Ali%27inui%20Dr,%20Kapolei,%20HI%2096707,%20USA&q-check-in=2019-10-04&q-check-out=2019-10-06&q-rooms=1&q-room-0-adults=2&q-room-0-children=0&sort-order=DISTANCE_FROM_LANDMARK" target="_blank">hotels.com</a></p>
+						<p><a href="https://www.kayak.com/hotels/Kapolei,HI-96707/2019-10-04/2019-10-06/1adults?sort=distance_a" target="_blank">kayak.com</a></p>
+						<p><a href="https://www.airbnb.com/s/Kapolei--HI--United-States/homes?adults=1&children=0&checkin=2019-10-04&checkout=2019-10-06&refinement_paths%5B%5D=%2Fhomes&allow_override%5B%5D=&s_tag=TBvjl8m6">Airbnb</a></p>
 					</div
 					><div class="col-r splt-3">
-						<h2 class="sub-title">Airbnb's</h2>
-					</div>
-					<div class="our-stay-wrap">
-						<h3 class="sub-title">Our Stay</h3>
-						<div class="our-stay">
-							<h2>October 3rd to 6th</h2>
-							<a href="" class="link"><p>4 Seasons</p></a>
-							<h2>October 6th to 12th</h2>
-							<a href="" class="link"><p>Airbnb</p></a>
-						</div>
+						<h2 class="sub-title">Our Itinerary</h2>
+						<h4>October 2, 2019 - October 6, 2019</h4>
+						<p>Four Seasons at Ko Olina</p>
+						<h4>October 6, 2019 - October 13, 2019</h4>
+						<p>Airbnb - TBD</p>
 					</div>
 				</div>
 			</div>

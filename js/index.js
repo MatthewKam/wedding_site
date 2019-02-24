@@ -3,7 +3,9 @@ $(document).ready(function(){
 		dots: true,
 	  	infinite: true,
 	  	slidesToShow: 1,
-	  	slidesToScroll: 1
+	  	slidesToScroll: 1,
+	  	autoplay: true,
+  		autoplaySpeed: 4000
 	});
 
 	$('a[href^="./#"]').click(function() {
@@ -21,7 +23,15 @@ $(document).ready(function(){
         }
     });
 
+    $('.discount').on('click', function(){
+    	$('.hidden-code').toggleClass('active');
+    });
+
 });
+
+// $(window).on('resize', function(){
+	
+// });
 
 $(document).scroll(function() {
 

@@ -103,7 +103,7 @@ body {
                     max-width: 1000px;
                     margin: 0 auto;
                     padding: 0 20px;
-                    
+
                 }
             }
 
@@ -124,30 +124,145 @@ body {
                 .cntnt-wrp{
                     .cntnt{
                         text-align:center;
+                        padding:0;
 
                         .home-link.mob,
                         .hambaga{
-                            display:none;
+                            display:block;
+                            @media screen and (min-width: 640px) {
+                                display:none;
+                            }
                         }
+                        .home-link{
+                            font-family: 'Amatic SC', cursive;
+                            font-size: 30px;
+                            line-height: 60px;  
+                            text-decoration: none;
+
+                            &.mob{
+                                color: white;
+                            }
+                            &.tab{
+                                display:none;
+
+                                @media screen and (min-width: 640px) {
+                                    display:inline-block;
+                                    vertical-align:top;
+                                }
+                            }
+                        }
+                        .hambaga-wrp {
+                            position: absolute;
+                            top: 0;
+                            right: 0;
+                            height: 60px;
+                            width: 50px;
+
+                            .hambaga{
+                                height: 30px;
+                                width: 30px;
+                                margin: 0 auto;
+                                margin-top: 13px;
+                                padding-top: 5px;
+                                cursor: pointer;
+                                position:relative;
+
+                                .lines {
+                                    border-bottom: 1px solid white;
+                                    width: 30px;
+                                    margin-top: 5px;
+
+                                    -webkit-transition-duration: .2s;
+                                    -moz-transition-duration: .2s;
+                                    -ms-transition-duration: .2s;
+                                    -o-transition-duration: .2s;
+                                    transition-duration: .2s;
+                                }
+
+                                &.active{
+                                    .lines{
+                                        &.line-1,
+                                        &.line-3{
+                                            position:absolute;
+                                            top: 10px;  
+                                        }
+
+                                        &.line-1{
+                                            -webkit-transform: rotate(45deg);
+                                            -moz-transform: rotate(45deg);
+                                            -ms-transform: rotate(45deg);
+                                            -o-transform: rotate(45deg);
+                                            transform: rotate(45deg);
+                                            
+                                        }
+                                        &.line-2{
+                                            display:none;
+                                        }
+                                        &.line-3{
+                                            -webkit-transform: rotate(-45deg);
+                                            -moz-transform: rotate(-45deg);
+                                            -ms-transform: rotate(-45deg);
+                                            -o-transform: rotate(-45deg);
+                                            transform: rotate(-45deg);
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+
                         ul{
+                            display:none;
+                            @media screen and (min-width: 640px) {
+                                display:block;
+                            }
+
                             li{
                                 display:inline-block;
                                 vertical-align:top;
+                                @media screen and (min-width: 640px) {
+                                   line-height: 60px;  
+                                }   
 
                                 a{
                                     display: block;
                                     text-decoration: none;
                                     color: black;
-                                    line-height: 60px;
                                     font-size: 16px;
                                     text-transform: uppercase;
                                     letter-spacing: 2px;
-                                    padding: 0 10px;
+                                    padding: 0 7px;
+
                                     font-family: 'Open Sans Condensed', sans-serif;
 
-                                    &.home-link{
+                                    @media screen and (min-width: 640px) {
+                                        color: white;
+                                    }
+                                    @media screen and (min-width: 800px) {
+                                        padding: 0 10px;
+                                    }
+                                    
+                                }
+                                &.home-link{
+                                    a{
                                         font-family: 'Amatic SC', cursive;
-                                        font-size: 30px;
+                                        font-size: 25px;
+                                        @media screen and (min-width: 800px) {
+                                            font-size: 30px;
+                                        }
+                                    }
+                                }
+                            }
+
+                            &.active{
+                                li{
+                                    width: 100%;
+                                    background-color: rgba(255,255,255,.8);
+                                    line-height: 25px;
+                                    padding: 5px 0;
+
+                                    &:hover{
+                                        background-color: rgba(234, 245, 234,.9);
                                     }
                                 }
                             }
