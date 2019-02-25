@@ -4,10 +4,13 @@ $(document).ready(function(){
 			$('#thanks').show();
 		    if (data == 'no_guest'){
 		        $('#guest-again').show();
+		        $('.ping-pong').hide();
 		        $('#guest-who').hide();
 		        $('#thanks').hide();
+
 		    } else {
 		        $('#guest-who').show();
+		        $('.ping-pong').hide();
 		        $('#guest-again').hide();
 		        $('#thanks').hide();
 		    }

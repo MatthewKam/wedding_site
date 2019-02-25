@@ -155,6 +155,11 @@
         border: 3px solid white;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
         margin-bottom: 10px; }
+        .rsvp-pg .frm-wrp .thankyou-wrp .thankyou img.ping-pong {
+          border-radius: 0;
+          box-shadow: none;
+          margin-bottom: 0;
+          border: none; }
       .rsvp-pg .frm-wrp .thankyou-wrp .thankyou h1 {
         font-family: 'Amatic SC', cursive;
         font-size: 36px; }
@@ -164,7 +169,8 @@
         top: 5px;
         right: 5px;
         width: 30px;
-        height: 30px; }
+        height: 30px;
+        cursor: pointer; }
         .rsvp-pg .frm-wrp .thankyou-wrp .thankyou a div.line-1, .rsvp-pg .frm-wrp .thankyou-wrp .thankyou a div.line-2 {
           border: 1px solid grey;
           width: 30px;

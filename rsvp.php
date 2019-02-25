@@ -83,6 +83,7 @@
 							<button type="submit" name="">Submit</button>
 							<div class="thankyou-wrp">
 								<div class="thankyou">
+									<img src="images/ping-pong.gif" class="ping-pong">
 									<div id="thanks">
 										<img src="images/rsvp-ty.png">
 										<h1>Thank you for your RSVP!</h1>
