@@ -1,0 +1,259 @@
+.rsvp-pg{
+    .bar-bg{
+        background:url(../images/bg-3.jpg)center center no-repeat;
+        background-size:cover;
+    }
+
+    .frm-wrp {
+        max-width: 500px;
+        margin: 0 auto;
+
+		@media screen and (min-width: 400px) {
+            padding: 0 15px;
+        }
+        .frm{
+            label{
+                display: block; 
+                margin-bottom:5px;
+
+                &.checkbox-wrap{
+                    display: inline-block;
+                    vertical-align: top;
+                }
+            }
+            input[type="text"],
+            input[type="email"] {
+                width: 100%;
+                box-sizing: border-box;
+                border: 1px solid lightgrey;
+                border-radius: 5px;
+                padding-left: 10px;
+                font-size: 15px;
+                margin-bottom: 5px;
+                height: 40px;
+                -webkit-appearance: none;
+                -moz-appearance:    none;
+                appearance:         none;
+                position:relative;
+
+                @media screen and (min-width: 400px) {
+		            margin-bottom: 10px;
+		        }
+            }
+            p{
+                display:inline-block;
+                vertical-align:top;
+            }
+            &.splt-2{
+            	width:100%;
+
+            	@media screen and (min-width: 400px) {
+                    width:49%;
+                }
+                &.col-r{
+                    @media screen and (min-width: 400px) {
+                    	margin-left:2%;
+                	}
+                }
+            }
+
+            span{
+                &.help-block{
+                    &.form-error {
+                        display: none;
+                    }
+                }
+            }
+
+            &.has-error{
+                input[type="text"],
+                input[type="email"] {
+                    border: 1px solid lightgrey !important;
+                    border-bottom: 3px solid #ff5e45 !important;
+                }
+                p{
+                    border-bottom: 3px solid #ff5e45 !important;
+                }
+            }
+            &.has-success{
+                input[type="text"],
+                input[type="email"] {
+                    border: 1px solid lightgrey !important;
+                    border-bottom: 3px solid #54e052 !important;
+                }
+                p{
+                    border-bottom: 3px solid #54e052 !important;
+                }
+            }
+
+            &.chkbx{
+            	text-align:center;
+            }
+        }
+
+        button{
+        	display: block;
+		    margin: 0 auto;
+		    border: 2px solid grey;
+		    color: black;
+		    margin-top: 10px;
+		    padding: 0 70px;
+		    line-height: 50px;
+		    font-size: 30px;
+		    font-family: 'Amatic SC', cursive;
+		    cursor:pointer;
+
+		    &:hover{
+		    	border: 2px solid #5dadd4;
+			    color: white;
+			    background-color: #5dadd4;
+		    }
+		    &:active,
+		    &:focus{
+		    	outline:none;
+		    }
+		    &:active{
+		    	-webkit-transform: scale(.95);
+				-moz-transform: scale(.95);
+				-ms-transform: scale(.95);
+				-o-transform: scale(.95);
+				transform: scale(.95);
+		    }
+        }
+
+        /*CHECKBOX*/
+        .checkbox-wrap {
+          display: inline-block;
+          vertical-align: top;
+          position: relative;
+          cursor: pointer;
+          font-size: 18px;
+          top: 0;
+          left: 0;
+          padding-left: 0;
+          margin-top: 5px;
+          margin-right: 5px;
+
+          &:hover input ~ .checkbox-indicator{
+            background: rgba(0,0,0,.2);
+          }
+
+          input {
+            position: absolute;
+            z-index: -1;
+            opacity: 0;
+
+            &:focus ~ .checkbox-indicator {
+              background: rgba(0,0,0,.2);
+            }
+            &:checked ~ .checkbox-indicator {
+              background: #319448;
+            }
+            &:checked ~ .checkbox-indicator:after {
+              display: block;
+            }
+
+          }
+
+          .checkbox-indicator {
+            height: 15px;
+            width: 15px;
+            background: rgba(0,0,0,.2);
+            border-radius: 4px;
+
+            &:after {
+              content: '';
+              position: absolute;
+              display: none;
+              left: 5px;
+              top: 2px;
+              width: 2px;
+              height: 7px;
+              border: solid #fff;
+              border-width: 0 3px 3px 0;
+              transform: rotate(45deg);
+              -ms-transform: rotate(45deg); /* IE 9 */
+              -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+            }
+          }
+        }//End of Checkbox
+     
+        div#guest {
+            display: none;
+            margin-top: 5px;
+        }   
+        .thankyou-wrp {
+    	    display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: rgba(0,0,0,.2);
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+
+            .thankyou {
+			    max-width: 400px;
+			    margin: 0 auto;
+			    margin-top: 20%;
+			    background-color: white;
+			    border-radius: 5px;
+			    padding: 30px 20px;
+			    text-align: center;
+			    position:relative;
+
+			    img{
+	    	        max-width: 220px;
+				    margin: 0 auto;
+				    border-radius: 50%;
+				    border: 3px solid white;
+				    box-shadow: 0 0 10px rgba(0,0,0,.4);
+				    margin-bottom: 10px;
+			    }
+			    h1{
+			    	font-family: 'Amatic SC', cursive;
+		    	    font-size: 36px;
+			    }
+			    a{
+			    	display: block;
+				    position: absolute;
+		        	top: 5px;
+    				right: 5px;
+				    width: 30px;
+				    height: 30px;
+
+				    div{
+				    	&.line-1,
+				    	&.line-2{
+							border: 1px solid grey;
+						    width: 30px;
+						    position: absolute;
+						    top: 14px;
+				    	}
+
+				    	&.line-1{
+						    transform: rotate(45deg);
+						    -ms-transform: rotate(45deg);
+						    -webkit-transform: rotate(45deg);
+				    	}
+				    	&.line-2{
+						    transform: rotate(-45deg);
+						    -ms-transform: rotate(-45deg);
+						    -webkit-transform: rotate(-45deg);
+				    	}
+				    }
+
+				    &:hover{
+				    	div{
+					    	&.line-1,
+					    	&.line-2{
+								border: 1px solid black;
+					    	}
+					    }
+				    }
+			    }
+			}
+        }
+    }
+
+}

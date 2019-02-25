@@ -1,0 +1,181 @@
+.rsvp-pg .bar-bg {
+  background: url(../images/bg-3.jpg) center center no-repeat;
+  background-size: cover; }
+
+.rsvp-pg .frm-wrp {
+  max-width: 500px;
+  margin: 0 auto;
+  /*CHECKBOX*/ }
+  @media screen and (min-width: 400px) {
+    .rsvp-pg .frm-wrp {
+      padding: 0 15px; } }
+  .rsvp-pg .frm-wrp .frm label {
+    display: block;
+    margin-bottom: 5px; }
+    .rsvp-pg .frm-wrp .frm label.checkbox-wrap {
+      display: inline-block;
+      vertical-align: top; }
+  .rsvp-pg .frm-wrp .frm input[type="text"],
+  .rsvp-pg .frm-wrp .frm input[type="email"] {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 15px;
+    margin-bottom: 5px;
+    height: 40px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    position: relative; }
+    @media screen and (min-width: 400px) {
+      .rsvp-pg .frm-wrp .frm input[type="text"],
+      .rsvp-pg .frm-wrp .frm input[type="email"] {
+        margin-bottom: 10px; } }
+  .rsvp-pg .frm-wrp .frm p {
+    display: inline-block;
+    vertical-align: top; }
+  .rsvp-pg .frm-wrp .frm.splt-2 {
+    width: 100%; }
+    @media screen and (min-width: 400px) {
+      .rsvp-pg .frm-wrp .frm.splt-2 {
+        width: 49%; } }
+    @media screen and (min-width: 400px) {
+      .rsvp-pg .frm-wrp .frm.splt-2.col-r {
+        margin-left: 2%; } }
+  .rsvp-pg .frm-wrp .frm span.help-block.form-error {
+    display: none; }
+  .rsvp-pg .frm-wrp .frm.has-error input[type="text"],
+  .rsvp-pg .frm-wrp .frm.has-error input[type="email"] {
+    border: 1px solid lightgrey !important;
+    border-bottom: 3px solid #ff5e45 !important; }
+  .rsvp-pg .frm-wrp .frm.has-error p {
+    border-bottom: 3px solid #ff5e45 !important; }
+  .rsvp-pg .frm-wrp .frm.has-success input[type="text"],
+  .rsvp-pg .frm-wrp .frm.has-success input[type="email"] {
+    border: 1px solid lightgrey !important;
+    border-bottom: 3px solid #54e052 !important; }
+  .rsvp-pg .frm-wrp .frm.has-success p {
+    border-bottom: 3px solid #54e052 !important; }
+  .rsvp-pg .frm-wrp .frm.chkbx {
+    text-align: center; }
+  .rsvp-pg .frm-wrp button {
+    display: block;
+    margin: 0 auto;
+    border: 2px solid grey;
+    color: black;
+    margin-top: 10px;
+    padding: 0 70px;
+    line-height: 50px;
+    font-size: 30px;
+    font-family: 'Amatic SC', cursive;
+    cursor: pointer; }
+    .rsvp-pg .frm-wrp button:hover {
+      border: 2px solid #5dadd4;
+      color: white;
+      background-color: #5dadd4; }
+    .rsvp-pg .frm-wrp button:active, .rsvp-pg .frm-wrp button:focus {
+      outline: none; }
+    .rsvp-pg .frm-wrp button:active {
+      -webkit-transform: scale(0.95);
+      -moz-transform: scale(0.95);
+      -ms-transform: scale(0.95);
+      -o-transform: scale(0.95);
+      transform: scale(0.95); }
+  .rsvp-pg .frm-wrp .checkbox-wrap {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    cursor: pointer;
+    font-size: 18px;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    margin-top: 5px;
+    margin-right: 5px; }
+    .rsvp-pg .frm-wrp .checkbox-wrap:hover input ~ .checkbox-indicator {
+      background: rgba(0, 0, 0, 0.2); }
+    .rsvp-pg .frm-wrp .checkbox-wrap input {
+      position: absolute;
+      z-index: -1;
+      opacity: 0; }
+      .rsvp-pg .frm-wrp .checkbox-wrap input:focus ~ .checkbox-indicator {
+        background: rgba(0, 0, 0, 0.2); }
+      .rsvp-pg .frm-wrp .checkbox-wrap input:checked ~ .checkbox-indicator {
+        background: #319448; }
+      .rsvp-pg .frm-wrp .checkbox-wrap input:checked ~ .checkbox-indicator:after {
+        display: block; }
+    .rsvp-pg .frm-wrp .checkbox-wrap .checkbox-indicator {
+      height: 15px;
+      width: 15px;
+      background: rgba(0, 0, 0, 0.2);
+      border-radius: 4px; }
+      .rsvp-pg .frm-wrp .checkbox-wrap .checkbox-indicator:after {
+        content: '';
+        position: absolute;
+        display: none;
+        left: 5px;
+        top: 2px;
+        width: 2px;
+        height: 7px;
+        border: solid #fff;
+        border-width: 0 3px 3px 0;
+        transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        /* IE 9 */
+        -webkit-transform: rotate(45deg);
+        /* Chrome, Safari, Opera */ }
+  .rsvp-pg .frm-wrp div#guest {
+    display: none;
+    margin-top: 5px; }
+  .rsvp-pg .frm-wrp .thankyou-wrp {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 100%;
+    z-index: 1; }
+    .rsvp-pg .frm-wrp .thankyou-wrp .thankyou {
+      max-width: 400px;
+      margin: 0 auto;
+      margin-top: 20%;
+      background-color: white;
+      border-radius: 5px;
+      padding: 30px 20px;
+      text-align: center;
+      position: relative; }
+      .rsvp-pg .frm-wrp .thankyou-wrp .thankyou img {
+        max-width: 220px;
+        margin: 0 auto;
+        border-radius: 50%;
+        border: 3px solid white;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+        margin-bottom: 10px; }
+      .rsvp-pg .frm-wrp .thankyou-wrp .thankyou h1 {
+        font-family: 'Amatic SC', cursive;
+        font-size: 36px; }
+      .rsvp-pg .frm-wrp .thankyou-wrp .thankyou a {
+        display: block;
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        width: 30px;
+        height: 30px; }
+        .rsvp-pg .frm-wrp .thankyou-wrp .thankyou a div.line-1, .rsvp-pg .frm-wrp .thankyou-wrp .thankyou a div.line-2 {
+          border: 1px solid grey;
+          width: 30px;
+          position: absolute;
+          top: 14px; }
+        .rsvp-pg .frm-wrp .thankyou-wrp .thankyou a div.line-1 {
+          transform: rotate(45deg);
+          -ms-transform: rotate(45deg);
+          -webkit-transform: rotate(45deg); }
+        .rsvp-pg .frm-wrp .thankyou-wrp .thankyou a div.line-2 {
+          transform: rotate(-45deg);
+          -ms-transform: rotate(-45deg);
+          -webkit-transform: rotate(-45deg); }
+        .rsvp-pg .frm-wrp .thankyou-wrp .thankyou a:hover div.line-1, .rsvp-pg .frm-wrp .thankyou-wrp .thankyou a:hover div.line-2 {
+          border: 1px solid black; }

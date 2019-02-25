@@ -9,4 +9,10 @@ $(document).ready(function(){
 		});
 	  	return false;
 	});
+
+
+	$('#has-guest').on('click', function(){
+		$('#guest').slideToggle();
+	});
+
 });

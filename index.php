@@ -131,9 +131,9 @@
 					</div
 					><div class="col-r splt-3">
 						<h2 class="sub-title">Our Itinerary</h2>
-						<h4>October 2, 2019 - October 6, 2019</h4>
+						<h4>10.2.19 - 10.6.19 (tentative)</h4>
 						<p>Four Seasons at Ko Olina</p>
-						<h4>October 6, 2019 - October 13, 2019</h4>
+						<h4>10.6.19 - 10.13.19 (tentative)</h4>
 						<p>Airbnb - TBD</p>
 					</div>
 				</div>

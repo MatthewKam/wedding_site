@@ -2,6 +2,7 @@
 <html>
 <head>
 	<?php include 'includes/head.php' ?>
+	<link rel="stylesheet" type="text/css" href="./css/rsvp.css">
 </head>
 <body>
 	<div class="pg-wrp rsvp-pg">
@@ -32,22 +33,38 @@
 							<div id="invitee">
 								<div class="frm col-l splt-2">
 									<label>First Name</label>
-									<input type="text" name="first_name">
+									<input type="text" 
+									data-validation="required"
+                                	data-validation-error-msg="First name is required." name="first_name">
 								</div
 								><div class="frm col-r splt-2">
 									<label>Last Name</label>
-									<input type="text" name="last_name">
+									<input type="text" 
+									name="last_name"
+									data-validation="required"
+                                	data-validation-error-msg="Last name is required.">
 								</div>
 								<div class="frm">
 									<label>Email</label>
-									<input type="email" name="email">
+									<input type="email" 
+									name="email"
+									data-validation="required"
+                                	data-validation-error-msg="Email is required.">
+
 								</div>
-								<div class="frm">
-									<input type="checkbox" name="is_going">
+								<div class="frm chkbx">
+									<label class="checkbox-wrap checkbox-control checkbox">
+				                        <input type="checkbox" 
+				                        name="is_going"/>
+				                        <div class="checkbox-indicator"></div>
+				                    </label>
 									<p>Are you attending?</p>
 								</div>
-								<div class="frm" id="has-guest">
-									<input type="checkbox" name="has_guest">
+								<div class="frm chkbx">
+									<label class="checkbox-wrap checkbox-control checkbox" >
+				                        <input type="checkbox" name="has_guest" id="has-guest"/>
+				                        <div class="checkbox-indicator"></div>
+				                    </label>
 									<p>Have a guest?</p>
 								</div>
 							</div>
@@ -62,9 +79,18 @@
 								</div>
 							</div>
 							<button type="submit" name="">Submit</button>
-							<div id="thanks">
-								<h1>Thank you for your RSVP!</h1>
-								<p>An email will be sent shortly.</p>
+							<div class="thankyou-wrp">
+								<div class="thankyou">
+									<img src="images/rsvp-ty.png">
+									<h1>Thank you for your RSVP!</h1>
+									<p>An email will be sent shortly.</p>
+									<a href="./index.php">
+										<div class="line-1"></div>
+										<div class="line-2"></div>
+									</a>
+
+								</div>
+								
 							</div>
 						</form>
 					</div>
@@ -78,7 +104,17 @@
 				</div>
 			</div>	
 		</div>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
 		<script type="text/javascript" src="js/rsvp.js"></script>
+		<script>
+		    $.validate({
+		        validateHiddenInputs: true,
+		        onSuccess : function() {
+		            $('.thankyou-wrp').fadeIn(300);
+		            return true;
+		        }
+		    });
+		</script>
 	</div>
 </body>
 </html>
