@@ -5,7 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="./css/rsvp.css">
 </head>
 <body>
-	<div class="pg-wrp rsvp-pg">
+	<div class="pg-wrp rsvp-pg inner-pg">
 		<div class="sctn sctn-hdr">
 			<div class="cntnt-wrp">
 				<div class="cntnt">

@@ -4,7 +4,7 @@
 	<?php include 'includes/head.php' ?>
 </head>
 <body>
-	<div class="pg-wrp stuff-pg">
+	<div class="pg-wrp stuff-pg inner-pg">
 		<div class="sctn sctn-hdr">
 			<div class="cntnt-wrp">
 				<div class="cntnt">

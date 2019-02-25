@@ -112,8 +112,8 @@ body {
                 top: 0;
                 left: 0;
                 width: 100%;
-                height: 65px;
-                background-color: transparent;
+                height: 60px;
+                background-color: rgba(255,255,255,.9);
                 z-index: 111;
                 -webkit-transition-duration: .1s;
                 -moz-transition-duration: .1s;
@@ -324,6 +324,82 @@ body {
                 background:url(../images/bg-1.jpg)center 40% no-repeat;
                 background-size:cover;
             }
+            .sctn{
+                &.sctn-1{
+                    .cntnt-wrp{
+                        .cntnt{
+                            padding: 60px 20px;
+                            text-align: center;
+
+                            a{
+                                display: block;
+                                margin: 30px auto;
+
+                                @media screen and (min-width: 500px) {
+                                    display: inline-block;
+                                    vertical-align: top;
+                                }
+                                
+                                &.crateandbarrel{
+                                    height: 50px;
+                                    width: 250px;
+                                    background: url(../images/reg-c-b.png) center top no-repeat;
+                                    background-position: 0 0;
+                                    background-size: 250px;
+
+                                    @media screen and (min-width: 500px) {
+                                        margin-top: 47px;
+                                    }
+                                    
+                                    
+                                    &:hover{
+                                        background-position: 0px -45px;
+                                    }
+                                }
+                                &.zola{
+                                    height: 100px;
+                                    width: 200px;
+                                    background: url(../images/reg-zola.png) center top no-repeat;
+                                    background-position: 0 0;
+                                    background-size: 200px;
+                                    
+                                    @media screen and (min-width: 500px) {
+                                        margin: 0 20px;
+                                    }
+                                    
+                                    &:hover{
+                                        background-position: 0 -99px;
+                                    }
+                                }
+                                &.amazon{
+                                    height: 70px;
+                                    width: 200px;
+                                    background: url(../images/reg-amazon.png) center top no-repeat;
+                                    background-position: 0px -69px;
+                                    background-size: 200px;
+
+                                    @media screen and (min-width: 500px) {
+                                        margin-top: 50px;
+                                    }
+                                    
+                                    &:hover{
+                                        background-position: 0 0;
+                                    }
+                                }
+
+                                &:active{
+                                    -webkit-transform: scale(.95);
+                                    -moz-transform: scale(.95);
+                                    -ms-transform: scale(.95);
+                                    -o-transform: scale(.95);
+                                    transform: scale(.95);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            
         }
         &.stuff-pg{
             .bar-bg{
@@ -331,7 +407,21 @@ body {
                 background-size:cover;
             }
         }
-        
+        &.inner-pg{
+            min-height:600px;
+            .sctn{
+                &.sctn-ftr{
+                    position: fixed;
+                    bottom: 0;
+                    left: 0;
+                    width: 100%;
+
+                    @media screen and (max-height: 600px) {
+                        position:relative;
+                    }
+                }
+            }
+        }
     }
     
     
