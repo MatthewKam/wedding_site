@@ -55,14 +55,16 @@
 								<div class="frm chkbx">
 									<label class="checkbox-wrap checkbox-control checkbox">
 				                        <input type="checkbox" 
-				                        name="is_going"/>
+				                        name="is_going" checked/>
 				                        <div class="checkbox-indicator"></div>
 				                    </label>
 									<p>Are you attending?</p>
 								</div>
 								<div class="frm chkbx">
 									<label class="checkbox-wrap checkbox-control checkbox" >
-				                        <input type="checkbox" name="has_guest" id="has-guest"/>
+				                        <input type="checkbox" 
+				                        name="has_guest" 
+				                        id="has-guest"/>
 				                        <div class="checkbox-indicator"></div>
 				                    </label>
 									<p>Have a guest?</p>
@@ -81,14 +83,33 @@
 							<button type="submit" name="">Submit</button>
 							<div class="thankyou-wrp">
 								<div class="thankyou">
-									<img src="images/rsvp-ty.png">
-									<h1>Thank you for your RSVP!</h1>
-									<p>An email will be sent shortly.</p>
-									<a href="./index.php">
-										<div class="line-1"></div>
-										<div class="line-2"></div>
-									</a>
-
+									<div id="thanks">
+										<img src="images/rsvp-ty.png">
+										<h1>Thank you for your RSVP!</h1>
+										<p>An email will be sent shortly.</p>
+										<a href="./index.php">
+											<div class="line-1"></div>
+											<div class="line-2"></div>
+										</a>
+									</div>
+									<div id="guest-who">
+										<img src="images/rsvp-ty.png">
+										<h1>Please try again!</h1>
+										<p>Your name was not found. If the problem persists, please contact the groom/bride.</p>
+										<a class="close-modal">
+											<div class="line-1"></div>
+											<div class="line-2"></div>
+										</a>
+									</div>
+									<div id="guest-again">
+										<img src="images/rsvp-ty.png">
+										<h1>Please try again!</h1>
+										<p>You currently do not have the correct permissions (to add another guest to your party). If this is in error, please contact the bride/groom.</p>
+										<a class="close-modal">
+											<div class="line-1"></div>
+											<div class="line-2"></div>
+										</a>
+									</div>
 								</div>
 								
 							</div>

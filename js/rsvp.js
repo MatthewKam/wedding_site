@@ -1,11 +1,17 @@
 $(document).ready(function(){
 	$('#frm').submit(function() {
 		$.post("rsvp-process.php", $(this).serialize(), function(data) {
+			$('#thanks').show();
 		    if (data == 'no_guest'){
-		        alert('You are not allowed a guest');
+		        $('#guest-again').show();
+		        $('#guest-who').hide();
+		        $('#thanks').hide();
 		    } else {
-		        alert(data);
+		        $('#guest-who').show();
+		        $('#guest-again').hide();
+		        $('#thanks').hide();
 		    }
+
 		});
 	  	return false;
 	});
@@ -14,5 +20,7 @@ $(document).ready(function(){
 	$('#has-guest').on('click', function(){
 		$('#guest').slideToggle();
 	});
-
+	$('.close-modal').on('click', function(){
+		$('.thankyou-wrp').fadeOut();
+	});
 });
