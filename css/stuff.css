@@ -20,7 +20,9 @@
       vertical-align: top; }
   .stuff-pg .sctn.sctn-1 .cntnt-wrp .cntnt h2 {
     font-family: 'Amatic SC', cursive;
-    font-size: 45px; }
+    font-size: 45px;
+    line-height: 43px;
+    margin-bottom: 10px; }
   .stuff-pg .sctn.sctn-1 .cntnt-wrp .cntnt a {
     display: block;
     color: black;
