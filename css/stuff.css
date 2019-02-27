@@ -1,3 +1,33 @@
 .stuff-pg .bar-bg {
   background: url(../images/bg-2.jpg) center center no-repeat;
   background-size: cover; }
+
+.stuff-pg .sctn.sctn-1 .cntnt-wrp .cntnt {
+  padding: 50px 20px; }
+  .stuff-pg .sctn.sctn-1 .cntnt-wrp .cntnt h1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 45px;
+    border-bottom: 1px solid lightgrey;
+    display: inline-block;
+    padding: 0 5px;
+    margin: 10px 0;
+    margin-top: 20px;
+    line-height: 55px; }
+    .stuff-pg .sctn.sctn-1 .cntnt-wrp .cntnt h1 span {
+      font-family: 'Open Sans Condensed', sans-serif;
+      font-size: 24px;
+      display: inline-block;
+      vertical-align: top; }
+  .stuff-pg .sctn.sctn-1 .cntnt-wrp .cntnt h2 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 45px; }
+  .stuff-pg .sctn.sctn-1 .cntnt-wrp .cntnt a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    line-height: 30px; }
+    .stuff-pg .sctn.sctn-1 .cntnt-wrp .cntnt a:hover {
+      color: green; }
+    .stuff-pg .sctn.sctn-1 .cntnt-wrp .cntnt a i {
+      font-size: 15px;
+      color: #353535; }

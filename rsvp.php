@@ -57,7 +57,7 @@
 								<div class="frm chkbx">
 									<label class="checkbox-wrap checkbox-control checkbox">
 				                        <input type="checkbox" 
-				                        name="is_going" checked/>
+				                        name="is_going" id="is-going" checked/>
 				                        <div class="checkbox-indicator"></div>
 				                    </label>
 									<p>Are you attending?</p>

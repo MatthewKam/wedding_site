@@ -7,7 +7,55 @@
     .sctn{
     	.cntnt-wrp{
     		.cntnt{
-    			
+
+    		}
+    	}
+
+    	&.sctn-1{
+    		.cntnt-wrp{
+    			.cntnt{
+    				padding:50px 20px;
+
+    				h1{
+    					font-family: 'Amatic SC', cursive;
+					    font-size: 45px;
+					    border-bottom: 1px solid lightgrey;
+					    display: inline-block;
+				        padding: 0 5px;
+					    margin: 10px 0;
+					    margin-top: 20px;
+					    line-height: 55px;
+
+					    span{
+					    	font-family: 'Open Sans Condensed', sans-serif;
+                            font-size: 24px;
+                            display: inline-block;
+    						vertical-align: top;
+					    }
+    				}
+    				h2{
+    					font-family: 'Amatic SC', cursive;
+					    font-size: 45px;
+    				}
+    				a{
+    					display:block;
+    					color:black;
+    					text-decoration: none;
+					    line-height: 30px;
+
+    					&:hover{
+    						color:green;
+    						h1{
+
+    						}
+    					}
+
+    					i{
+    						font-size: 15px;
+    						color: #353535;
+    					}
+    				}
+    			}
     		}
     	}
     }
