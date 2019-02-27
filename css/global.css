@@ -279,9 +279,6 @@ body {
         -ms-transform: scale(0.95);
         -o-transform: scale(0.95);
         transform: scale(0.95); }
-  body .pg-wrp.stuff-pg .bar-bg {
-    background: url(../images/bg-2.jpg) center center no-repeat;
-    background-size: cover; }
   body .pg-wrp.inner-pg {
     min-height: 600px; }
     body .pg-wrp.inner-pg .sctn.sctn-ftr {

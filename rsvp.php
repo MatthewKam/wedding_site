@@ -29,13 +29,15 @@
 			<div class="cntnt-wrp">
 				<div class="cntnt">
 					<div class="frm-wrp">
-						<form id="frm">
-							<div id="invitee">
+						<form id="frm-guest" method="post">
+							<div id="invite">
+								<h1>Please fill in your info.</h1>
 								<div class="frm col-l splt-2">
 									<label>First Name</label>
 									<input type="text" 
 									data-validation="required"
-                                	data-validation-error-msg="First name is required." name="first_name">
+                                	data-validation-error-msg="First name is required." 
+                                	name="first_name">
 								</div
 								><div class="frm col-r splt-2">
 									<label>Last Name</label>
@@ -60,61 +62,63 @@
 				                    </label>
 									<p>Are you attending?</p>
 								</div>
+								<button type="submit" name="">RSVP</button>
+							</div>
+						</form>	
+						<form id="frm-has-guest" method="post">
+							<div id="guest">
+								<h1>Please fill in the name of your guest.</h1>
 								<div class="frm chkbx">
-									<label class="checkbox-wrap checkbox-control checkbox" >
+									<label class="checkbox-wrap checkbox-control checkbox">
 				                        <input type="checkbox" 
-				                        name="has_guest" 
-				                        id="has-guest"/>
+				                        name="going_solo" class="solo"/>
 				                        <div class="checkbox-indicator"></div>
 				                    </label>
-									<p>Have a guest?</p>
+									<p>I am not bringing a guest</p>
 								</div>
-							</div>
-							<div id="guest">
-								<div class="frm col-l splt-2">
-									<label>First Name</label>
-									<input type="text" name="guest_first">
-								</div
-								><div class="frm col-r splt-2">
-									<label>Last Name</label>
-									<input type="text" name="guest_last">
+								<div id="guest-first-last">
+									<div class="frm col-l splt-2">
+										<label>First Name</label>
+										<input type="text" 
+										name="guest_first"
+										data-validation="required"
+										data-validation-error-msg="First name is required.">
+									</div
+									><div class="frm col-r splt-2">
+										<label>Last Name</label>
+										<input type="text" 
+										name="guest_last"
+										data-validation="required"
+										data-validation-error-msg="Last name is required.">
+									</div>
 								</div>
 							</div>
 							<button type="submit" name="">Submit</button>
-							<div class="thankyou-wrp">
-								<div class="thankyou">
-									<img src="images/ping-pong.gif" class="ping-pong">
-									<div id="thanks">
-										<img src="images/rsvp-ty.png">
-										<h1>Thank you for your RSVP!</h1>
-										<p>An email will be sent shortly.</p>
-										<a href="./index.php">
-											<div class="line-1"></div>
-											<div class="line-2"></div>
-										</a>
-									</div>
-									<div id="guest-who">
-										<img src="images/rsvp-ty.png">
-										<h1>Please try again!</h1>
-										<p>Your name was not found. If the problem persists, please contact the groom/bride.</p>
-										<a class="close-modal">
-											<div class="line-1"></div>
-											<div class="line-2"></div>
-										</a>
-									</div>
-									<div id="guest-again">
-										<img src="images/rsvp-ty.png">
-										<h1>Please try again!</h1>
-										<p>You currently do not have the correct permissions (to add another guest to your party). If this is in error, please contact the bride/groom.</p>
-										<a class="close-modal">
-											<div class="line-1"></div>
-											<div class="line-2"></div>
-										</a>
-									</div>
-								</div>
-								
-							</div>
 						</form>
+						<div class="thankyou-wrp">
+							<div class="thankyou">
+								<img src="images/ping-pong.gif" class="ping-pong">
+								<div id="thanks">
+									<img src="images/rsvp-ty.png">
+									<h1>Thank you for your RSVP!</h1>
+									<p>An email will be sent shortly.</p>
+									<a href="./index.php">
+										<div class="line-1"></div>
+										<div class="line-2"></div>
+									</a>
+								</div>
+								<div id="guest-again">
+									<img src="images/rsvp-ty.png">
+									<h1>Please try again!</h1>
+									<p>Your name was not found. If the problem persists, please contact the groom/bride.</p>
+									<a class="close-modal">
+										<div class="line-1"></div>
+										<div class="line-2"></div>
+									</a>
+								</div>
+							</div>
+							
+						</div>
 					</div>
 				</div>
 			</div>

@@ -35,7 +35,8 @@
         margin-bottom: 10px; } }
   .rsvp-pg .frm-wrp .frm p {
     display: inline-block;
-    vertical-align: top; }
+    vertical-align: top;
+    line-height: 25px; }
   .rsvp-pg .frm-wrp .frm.splt-2 {
     width: 100%; }
     @media screen and (min-width: 400px) {
@@ -128,8 +129,10 @@
         -webkit-transform: rotate(45deg);
         /* Chrome, Safari, Opera */ }
   .rsvp-pg .frm-wrp div#guest {
-    display: none;
     margin-top: 5px; }
+    .rsvp-pg .frm-wrp div#guest .frm.chkbx {
+      text-align: left;
+      margin-bottom: 10px; }
   .rsvp-pg .frm-wrp .thankyou-wrp {
     display: none;
     position: fixed;
@@ -142,7 +145,7 @@
     .rsvp-pg .frm-wrp .thankyou-wrp .thankyou {
       max-width: 400px;
       margin: 0 auto;
-      margin-top: 20%;
+      margin-top: 15%;
       background-color: white;
       border-radius: 5px;
       padding: 30px 20px;
@@ -190,3 +193,13 @@
       .rsvp-pg .frm-wrp .thankyou-wrp .thankyou #guest-who,
       .rsvp-pg .frm-wrp .thankyou-wrp .thankyou #guest-again {
         display: none; }
+  .rsvp-pg .frm-wrp form#frm-guest h1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 36px;
+    margin-bottom: 10px; }
+  .rsvp-pg .frm-wrp form#frm-has-guest {
+    display: none; }
+    .rsvp-pg .frm-wrp form#frm-has-guest h1 {
+      font-family: 'Amatic SC', cursive;
+      font-size: 36px;
+      margin-bottom: 10px; }
