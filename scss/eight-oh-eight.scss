@@ -13,6 +13,13 @@
                         text-align: center;
                     	overflow-x:scroll;
 
+                        .download-csv{
+                            padding: 10px;
+                            display: inline-block;
+                            color: black;
+                            margin-bottom: 10px;
+
+                        }
                     	.tble-wrp {
 						    width: 960px;
 						    margin: 0 auto;
@@ -24,6 +31,7 @@
                     	.title div,
                     	.more-money div{
                     		display:inline-block;
+                            vertical-align:top;
                 		    line-height: 30px;
 							font-size: 15px;
 							text-align:left;
@@ -41,11 +49,21 @@
                     		&.is_going,
                     		&.has_guest{
 		                        width: 50px;
+
+                                img{
+                                    width: 15px;
+                                    margin-left: 10px;
+                                    margin-top: 7px;
+                                }
                     		}
                     		&.date-rsvpd{
         			            width: 80px;
                     		}
                     	}
+
+                        .title div{
+                            font-weight:bold;
+                        }
                     }
                 }
             }

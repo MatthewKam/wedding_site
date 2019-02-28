@@ -6,6 +6,11 @@
   padding: 60px 20px;
   text-align: center;
   overflow-x: scroll; }
+  .pg-wrp.rsvpd-pg .sctn.sctn-1 .cntnt-wrp .cntnt .download-csv {
+    padding: 10px;
+    display: inline-block;
+    color: black;
+    margin-bottom: 10px; }
   .pg-wrp.rsvpd-pg .sctn.sctn-1 .cntnt-wrp .cntnt .tble-wrp {
     width: 960px;
     margin: 0 auto; }
@@ -15,6 +20,7 @@
   .pg-wrp.rsvpd-pg .sctn.sctn-1 .cntnt-wrp .cntnt .title div,
   .pg-wrp.rsvpd-pg .sctn.sctn-1 .cntnt-wrp .cntnt .more-money div {
     display: inline-block;
+    vertical-align: top;
     line-height: 30px;
     font-size: 15px;
     text-align: left; }
@@ -32,6 +38,14 @@
     .pg-wrp.rsvpd-pg .sctn.sctn-1 .cntnt-wrp .cntnt .more-money div.is_going,
     .pg-wrp.rsvpd-pg .sctn.sctn-1 .cntnt-wrp .cntnt .more-money div.has_guest {
       width: 50px; }
+      .pg-wrp.rsvpd-pg .sctn.sctn-1 .cntnt-wrp .cntnt .title div.is_going img, .pg-wrp.rsvpd-pg .sctn.sctn-1 .cntnt-wrp .cntnt .title div.has_guest img,
+      .pg-wrp.rsvpd-pg .sctn.sctn-1 .cntnt-wrp .cntnt .more-money div.is_going img,
+      .pg-wrp.rsvpd-pg .sctn.sctn-1 .cntnt-wrp .cntnt .more-money div.has_guest img {
+        width: 15px;
+        margin-left: 10px;
+        margin-top: 7px; }
     .pg-wrp.rsvpd-pg .sctn.sctn-1 .cntnt-wrp .cntnt .title div.date-rsvpd,
     .pg-wrp.rsvpd-pg .sctn.sctn-1 .cntnt-wrp .cntnt .more-money div.date-rsvpd {
       width: 80px; }
+  .pg-wrp.rsvpd-pg .sctn.sctn-1 .cntnt-wrp .cntnt .title div {
+    font-weight: bold; }

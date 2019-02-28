@@ -1,3 +1,7 @@
+<?php 
+	$rows = include 'pulling-teeth.php';
+?>
+
 <html>
 <head>
 	<title>Susan & Matt Are Getting Married!</title>
@@ -28,35 +32,29 @@
 			</div>
 			<div class="cntnt-wrp">
 				<div class="cntnt">
+					<a href="/808/csv.php" class="download-csv">Download CSV</a>
 					<div class="tble-wrp">
 						<div class="title">
 							<div class="guest_number">&nbsp;</div
 							><div class="is_going">Going</div
 							><div class="name">Name</div
 							><div class="email">Email</div
-							><div class="has_guest">+ 1</div
-							><div class="guest_name">+ Name</div
+							><div class="has_guest">Guest</div
+							><div class="guest_name">Name</div
 							><div class="date-rsvpd">Date</div>
 						</div>
 						<div class="table">
-							<div class="more-money">
-								<div class="guest_number">1</div
-								><div class="is_going">Yes</div
-								><div class="name">Susan Kwak</div
-								><div class="email">susan.kwak88@gmail.com</div
-								><div class="has_guest">Yes</div
-								><div class="name">Matt Kam</div
-								><div class="date-rsvpd">02/14/09</div>
-							</div>
-							<div class="more-money">
-								<div class="guest_number">80</div
-								><div class="is_going">No</div
-								><div class="name">Matt Kam</div
-								><div class="email">matt.ph.kam@gmail.com</div
-								><div class="has_guest">No</div
-								><div class="guest_name"></div
-								><div class="date-rsvpd">10/05/07</div>
-							</div>
+							<?php foreach ($rows as $row): ?>
+								<div class="more-money">
+									<div class="guest_number"><?php echo $row['id'] ?></div
+									><div class="is_going"><?php echo $row['is_going'] === '1' ? '<img src="../images/check-green.png" class="check">' : '' ?></div
+									><div class="name"><?php echo ucwords($row['name']) ?></div
+									><div class="email"><?php echo $row['email'] ?></div
+									><div class="has_guest"><?php echo $row['has_guest'] === '1' ? '<img src="../images/check-green.png" class="check">' : ''?></div
+									><div class="name"><?php echo ucwords($row['guest_name']) ?></div
+									><div class="date-rsvpd"><?php echo $row['created_at_pst'] ?></div>
+								</div>
+							<?php endforeach?>
 						</div>
 					</div>			
 				</div>
