@@ -7,7 +7,7 @@
 
 	include 'config.php';
 
-	function submitInvite($conn, $first_name, $last_name, $email, $is_going, $has_guest = null, $guest_first = null, $guest_last = null){
+	function submitInvite($conn, $first_name, $last_name, $email, $is_going, $has_guest = 0, $guest_first = '', $guest_last = ''){
 
 		$sql = '
 			INSERT INTO rsvp (first_name, last_name, email, is_going, has_guest, guest_first, guest_last)

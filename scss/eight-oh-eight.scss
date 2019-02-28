@@ -1,0 +1,55 @@
+.pg-wrp{
+
+	&.rsvpd-pg{
+        .bar-bg{
+            background:url(../images/bg-4.jpg)center 40% no-repeat;
+            background-size:cover;
+        }
+        .sctn{
+            &.sctn-1{
+                .cntnt-wrp{
+                    .cntnt{
+                        padding: 60px 20px;
+                        text-align: center;
+                    	overflow-x:scroll;
+
+                    	.tble-wrp {
+						    width: 960px;
+						    margin: 0 auto;
+						}
+                    	.title,
+                    	.more-money{
+                    		border-bottom:1px solid lightgrey;
+                    	}
+                    	.title div,
+                    	.more-money div{
+                    		display:inline-block;
+                		    line-height: 30px;
+							font-size: 15px;
+							text-align:left;
+
+                    		&.guest_number{
+            			        width: 25px;
+                    		}
+                    		&.name,
+                    		&.guest_name{
+		        	    	    width: 230px;
+                    		}
+                    		&.email{
+        			            width: 220px;
+                    		}
+                    		&.is_going,
+                    		&.has_guest{
+		                        width: 50px;
+                    		}
+                    		&.date-rsvpd{
+        			            width: 80px;
+                    		}
+                    	}
+                    }
+                }
+            }
+        }
+        
+    }
+}
