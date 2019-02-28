@@ -6,9 +6,6 @@
 
 	$connection = new PDO("mysql:dbname=$db;host=$host", $username, $password);
 
-	// $stmt = $connection->prepare('TRUNCATE rsvp');
-	// $stmt->execute();
-
 	$sql = '
 	    SELECT 
 	    	r.*, 
