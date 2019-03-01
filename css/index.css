@@ -12,7 +12,7 @@ body, html {
     margin-top: 10px; }
     .pg-wrp.home-pg .sctn .cntnt-wrp .cntnt .title h1 {
       font-size: 40px;
-      font-family: 'Rouge Script', cursive; }
+      font-family: 'Abril Fatface', cursive; }
   .pg-wrp.home-pg .sctn .cntnt-wrp .cntnt .sub-title {
     font-family: 'Amatic SC', cursive;
     font-size: 30px;
@@ -96,14 +96,13 @@ body, html {
         .pg-wrp.home-pg .sctn.sctn-1 .bg-img .ovr-bg .cntnt .headlines {
           padding-top: 20%;
           height: 100px;
-          text-shadow: 1px 1px 5px black; }
+          text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.2);
+          font-family: 'Abril Fatface', cursive;
+          color: white; }
           .pg-wrp.home-pg .sctn.sctn-1 .bg-img .ovr-bg .cntnt .headlines h1 {
-            font-family: 'Rouge Script', cursive;
             font-size: 80px;
-            line-height: 70px;
-            color: white; }
+            line-height: 70px; }
           .pg-wrp.home-pg .sctn.sctn-1 .bg-img .ovr-bg .cntnt .headlines p {
-            color: white;
             font-family: 'Amatic SC', cursive;
             font-size: 40px; }
     .pg-wrp.home-pg .sctn.sctn-1 .bg-img.bg-1 {

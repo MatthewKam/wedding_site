@@ -221,12 +221,15 @@ body {
     background-color: rgba(143, 213, 247, 0.2);
     height: 100px; }
     body .pg-wrp .cover-bg h1 {
-      font-family: 'Rouge Script', cursive;
-      font-size: 70px;
+      font-family: 'Abril Fatface', cursive;
+      font-size: 60px;
+      line-height: 70px;
       color: white;
       text-align: center;
       padding: 10px 0;
-      text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.7); }
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.2); }
   body .pg-wrp.registry-pg .bar-bg {
     background: url(../images/bg-1.jpg) center 40% no-repeat;
     background-size: cover; }

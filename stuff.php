@@ -16,7 +16,7 @@
 		<div class="sctn sctn-1">
 			<div class="bar-bg">
 				<div class="cover-bg">
-					<h1>Stuff To Do</h1>
+					<h1>Things To Do</h1>
 				</div>
 			</div>
 			<div class="cntnt-wrp">
@@ -76,9 +76,10 @@
 						<a href="https://www.google.com/maps/place/Turtle+Bay+Resort/@21.7013639,-157.997866,4726m/data=!3m2!1e3!4b1!4m5!3m4!1s0x7c00504fe1e96419:0x1ee8f68b7f5c0bec!8m2!3d21.704625!4d-157.99859" target="_blank">Turtle Bay Resort <i>(Forgetting Sarah Marshall was filmed there. Also can do horseback riding.)</i></a>
 						<a href="https://www.google.com/maps/place/Ho%E2%80%99omaluhia+Botanical+Garden+Visitor+Center/@21.386636,-157.809594,18947m/data=!3m1!1e3!4m8!1m2!2m1!1sbotanical+gardens+oahu!3m4!1s0x7c006b0b31ee406d:0x7fc7a3bb510eef28!8m2!3d21.386636!4d-157.809594" target="_blank">Ho’omaluhia Botanical Garden Visitor Center <i>(Bring Mosquito repellant)</i></a>
 						<a href="https://www.google.com/maps/place/Paradise+Cove+Luau/@21.343792,-158.1296882,1185m/data=!3m2!1e3!4b1!4m5!3m4!1s0x7c006de5aaaaaaab:0xa152312931b9e505!8m2!3d21.343792!4d-158.1274995" target="_blank">Paradise Cove Luau</a>
+						<a href="https://www.google.com/maps?q=dole+plantation&um=1&ie=UTF-8&sa=X&sqi=2&ved=0ahUKEwjxiIuxud_gAhWStp4KHRDYDOUQ_AUIDigB" target="_blank">Dole Plantation (Dole whip is great and the maze is fun. Susan cheats..)</a>
 						<a href="https://www.google.com/maps/place/Big+Wave+Dave+Surf+%26+Coffee/@21.2766653,-157.8247863,5m/data=!3m1!1e3!4m8!1m2!2m1!1spaddle+board+waikiki!3m4!1s0x7c0072771c4318c1:0x5192daafae164ae1!8m2!3d21.2794846!4d-157.831177" target="_blank">Paddle Board in Waikiki <i>(suggestion - don't remember which one is good)</i></a>
 						<a href="https://www.google.com/maps/place/Mokoli'i/@21.5096106,-157.8316332,1183m/data=!3m2!1e3!4b1!4m5!3m4!1s0x7c00410bbb4d1c0d:0xf9a67fbdd673b342!8m2!3d21.5096206!4d-157.8292209" target="_blank">China Man’s Hat <i>(You can kayak to this island and have it all to yourself)</i></a>
-						<a href="https://www.google.com/maps/place/Aulani,+A+Disney+Resort+%26+Spa/@21.3388035,-158.1251094,1185m/data=!3m2!1e3!4b1!4m5!3m4!1s0x7c0062be93391919:0x7570daaa1481ddd8!8m2!3d21.3388035!4d-158.1229207" target="_blank">Aulani Disney Resort <i>(they have a lazy river)</i></a>
+						<a href="https://www.google.com/maps/place/Aulani,+A+Disney+Resort+%26+Spa/@21.3388035,-158.1251094,1185m/data=!3m2!1e3!4b1!4m5!3m4!1s0x7c0062be93391919:0x7570daaa1481ddd8!8m2!3d21.3388035!4d-158.1229207" target="_blank">Aulani Disney Resort <i>(they have a lazy river.. I think)</i></a>
 						<a href="https://www.google.com/maps/place/2101-2123+Kalakaua+Ave,+Honolulu,+HI+96815/@21.2817713,-157.8318287,592m/data=!3m2!1e3!4b1!4m13!1m7!3m6!1s0x7c006df4e5c129af:0x4633ddc52a688878!2zV2Fpa8Sra8SrLCBISSA5NjgxNQ!3b1!8m2!3d21.285002!4d-157.835698!3m4!1s0x7c006d8aedff170f:0xa1c410aac64f680e!8m2!3d21.2817712!4d-157.830735" target="_blank">Downtown Waikiki</a>
 						<a href="https://www.google.com/maps/place/Chinatown+Cultural+Plaza/@21.3078156,-157.8651787,2366m/data=!3m1!1e3!4m13!1m7!3m6!1s0x7c006e71a39550c7:0x8f410dd8f23cfc8b!2sChinatown,+Honolulu,+HI+96817!3b1!8m2!3d21.3161372!4d-157.8660101!3m4!1s0x7c006e741bdbffe1:0xc4f1a4db529fc157!8m2!3d21.3141653!4d-157.8610347">China Town</a>
 					</div

@@ -22,6 +22,7 @@
 						<div class="cntnt">
 							<div class="headlines">
 								<h1>October 5th</h1>
+								<p>#itsaboutkamtime2019</p>
 							</div>
 						</div>
 					</div>
@@ -30,7 +31,8 @@
 					<div class="ovr-bg">
 						<div class="cntnt">
 							<div class="headlines">
-								<h1>#itsaboutkamtime2019</h1>
+								<h1>October 5th</h1>
+								<p>#itsaboutkamtime2019</p>
 							</div>
 						</div>
 					</div>
@@ -135,6 +137,17 @@
 						<p>Four Seasons at Ko Olina</p>
 						<h4>10.6.19 - 10.13.19 (tentative)</h4>
 						<p>Airbnb - TBD</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="sctn sctn-us">
+			<div class="cntnt-wrp">
+				<div class="cntnt">
+					<div class="us-pictures-wrp">
+						<div>
+							<p></p>
+						</div>
 					</div>
 				</div>
 			</div>
