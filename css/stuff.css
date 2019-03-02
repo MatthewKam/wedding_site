@@ -33,3 +33,6 @@
     .stuff-pg .sctn.sctn-1 .cntnt-wrp .cntnt a i {
       font-size: 15px;
       color: #353535; }
+  .stuff-pg .sctn.sctn-1 .cntnt-wrp .cntnt .google-maps .map-wrp {
+    width: 100%;
+    height: 500px; }

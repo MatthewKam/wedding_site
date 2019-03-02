@@ -41,6 +41,7 @@
 						<a href="https://www.google.com/maps/search/mcDonalds,+oahu/@21.3216561,-157.8763777,9474m/data=!3m1!1e3" target="_blank">McDonald's <i>(Taro Pie, Haupia Pie, or Spam & Eggs)</i></a>
 						<a href="https://www.google.com/maps/place/Ted's+Bakery/@21.6774712,-158.0385974,1182m/data=!3m2!1e3!4b1!4m5!3m4!1s0x7c0050af67435885:0xa43a1764fbd7e1d!8m2!3d21.6774712!4d-158.0364087" target="_blank">Ted's Bakery <i>(North Shore)</i></a>
 						<a href="https://www.google.com/maps/place/Cinnamon's/@21.3969462,-157.7442557,1184m/data=!3m2!1e3!4b1!4m5!3m4!1s0x7c0014dc22d0a05d:0xb9aec21333b648b2!8m2!3d21.3969462!4d-157.742067" target="_blank">Cinnamon's <i>(Guava Chiffon Pancakes)</i></a>
+						<a href="https://www.google.com/maps/place/Boots+%26+Kimo's+Homestyle+Kitchen/@21.3916982,-157.7433794,17z/data=!3m1!4b1!4m5!3m4!1s0x7c0014c32c59ce6d:0xfd40b26c39fdfb95!8m2!3d21.3916982!4d-157.7411854" target="_blank">Boots & Kimo's Homestyle Kitchen <i>(Mac Nut Pancakes)</i></a>
 						<a href="https://www.google.com/maps/place/Opal+Thai/@21.311695,-157.8651107,1185m/data=!3m2!1e3!4b1!4m5!3m4!1s0x7c005f2ccc9f4163:0xb7ea194b93ee10bf!8m2!3d21.311695!4d-157.862922" target="_blank">Opal Thai <i>(Fun Experience)</i></a>
 						<a href="https://www.google.com/maps/place/Tonkatsu+Tamafuji/@21.2749366,-157.8175574,1185m/data=!3m2!1e3!4b1!4m5!3m4!1s0x7c0072792b7bbe6f:0x1236c7d123283ebc!8m2!3d21.2749366!4d-157.8153687" target="_blank">Tonkatsu Tamafuji</a>
 						<a href="https://www.google.com/maps/place/Nico's+PIER+38+Fish+Market/@21.3176484,-157.8792943,1185m/data=!3m2!1e3!4b1!4m5!3m4!1s0x7c006e45afcba457:0xdd7fb6d4f5a650e1!8m2!3d21.3176484!4d-157.8771056" target="_blank">Nico's Pier 38</a>
@@ -88,6 +89,7 @@
 						<a href="https://www.google.com/maps/place/Chinatown+Cultural+Plaza/@21.3078156,-157.8651787,2366m/data=!3m1!1e3!4m13!1m7!3m6!1s0x7c006e71a39550c7:0x8f410dd8f23cfc8b!2sChinatown,+Honolulu,+HI+96817!3b1!8m2!3d21.3161372!4d-157.8660101!3m4!1s0x7c006e741bdbffe1:0xc4f1a4db529fc157!8m2!3d21.3141653!4d-157.8610347" target="_blank">Ala Moana Mall</a>
 						<a href="https://www.google.com/maps/place/Kahala+Mall/@21.2770754,-157.7885916,1185m/data=!3m2!1e3!4b1!4m5!3m4!1s0x7c006d6089c94fed:0xa52d8f35c95669bb!8m2!3d21.2770754!4d-157.7864029" target="_blank">Kahala mall</a>
 						<a href="https://www.google.com/maps/place/In4mation/@21.2941977,-157.8550132,4740m/data=!3m2!1e3!5s0x7c006df06800f5bd:0x7edf0a3ab5fa79dc!4m8!1m2!2m1!1sin4mation!3m4!1s0x7c006dfd4eacbb31:0xf5850bceba73374!8m2!3d21.2913108!4d-157.8429664" target="_blank">In4mation</a>
+						<a href="https://www.google.com/maps/place/T%26C+Surf+Designs/@21.2914419,-157.8471446,17z/data=!3m2!4b1!5s0x7c006df06800f5bd:0x7edf0a3a437db9d5!4m5!3m4!1s0x7c006dfd4bf98af1:0xc36a94c4052c85af!8m2!3d21.2914419!4d-157.8449506" target="_blank">T & C Surf Design</a>
 						<a href="https://www.google.com/maps/place/88+Tees/@21.2800123,-157.8289015,593m/data=!3m1!1e3!4m8!1m2!2m1!1s88+tees!3m4!1s0x7c006d8a7dbc9599:0xedc981d4d967a7f8!8m2!3d21.2806678!4d-157.8298644" target="_blank">88 Tees <i>(from Terrace House)</i></a>
 						<a href="https://www.google.com/maps/place/Aloha+Stadium+Swap+Meet/@21.3342699,-157.9084402,18953m/data=!3m1!1e3!4m8!1m2!2m1!1suh+swap+meet!3m4!1s0x7c006f47aec94541:0xfdd72722fbb7c776!8m2!3d21.371608!4d-157.9297298" target="_blank">UH Swap Meet <i>(Wednesday, Saturday, Sunday - bring sunscreen/hat)</i></a>
 					</div>
@@ -95,6 +97,13 @@
 						<h1>Unreal Hawaii</h1>
 						<p>Local adventures made by people from Hawaii</p>
 					</a>
+
+					<div class="google-maps">
+						<h1>Google Maps</h1>
+						<div class="map-wrp">
+							<iframe src="https://www.google.com/maps/d/embed?mid=1hrIhRsDfcjRZU1xCiv9sbQ8q6ZVnnODH" width="100%" height="100%"></iframe>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
